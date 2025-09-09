@@ -1,4 +1,22 @@
 .boxer {
-    border: 10px red;
-    border-style: solid;
+    border: 2px solid red;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+
 }
+
+.heimsidebilde {
+    border: 2px solid green;
+}
+
+#heimsideskuleplass {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    border: 2px solid green;
+    margin: 2px;
+}
+
