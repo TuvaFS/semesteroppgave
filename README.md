@@ -1,5 +1,7 @@
 # semesteroppgave
-Test
+
 */ test
 -- test
 // test
+<!-- test -->
+test
