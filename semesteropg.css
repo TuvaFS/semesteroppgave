@@ -20,3 +20,28 @@
     margin: 2px;
 }
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+}
+  
+.navbar li {
+    float: right;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background-color: #111111;
+}
+  
+
