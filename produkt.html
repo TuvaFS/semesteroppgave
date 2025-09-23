@@ -2,27 +2,21 @@
 <html lang="no">
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>BHR2 - Regnbyen Bergen A/S</title>
 		<link rel="stylesheet" href="semesteropg.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
-		<section class="boxer">
-			<div class="navbar">
-				<div class="logo">
-					 
-					<span class="logo-text">RB A/S</span>
-				</div>
-				<ul>
-					<li><a href="heimside.html">Heimside</a></li>
-					<li><a href="produkt.html">Produkter</a></li>
-					<li><a href="BHR3.html">Info</a></li>
-					<li><a href="omoss.html">Om oss</a></li>
-				</ul>
-			</div>
-		</section>
-		<h2 class="header">Bekledning for Regnbyen Bergen</h2>
-		<p class="description">På denne siden vil du finne all informasjonen du trenger for å velge riktig bekledning for regnværet i Bergen.</p>
-		<p class="description">Vi har samlet informasjon direkte fra Bergensere samtidig som at vi har testet ut diverse bekledningsalternativer for å gi deg de beste anbefalingene.</p>
+		<div w3-include-html="header.html"></div>
+      
+		<div class="content">
+         <h2 class="header">Bekledning for Regnbyen Bergen</h2>
+         <p class="description">På denne siden vil du finne all informasjonen du trenger for å velge riktig bekledning for regnværet i Bergen.</p>
+         <p class="description">Vi har samlet informasjon direkte fra Bergensere samtidig som at vi har testet ut diverse bekledningsalternativer for å gi deg de beste anbefalingene.</p>
+		</div>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script>w3.includeHTML();</script>
 	</body>
 </html>
